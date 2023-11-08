@@ -1,0 +1,72 @@
+/* 
+contenedor vertical móvil: 322px x 498px
+imgmob: 289pxz289px 
+(305px de altura total de contenedor img)
+(16px separación top to img)
+*/
+
+
+:root{
+--White: hsl(0, 0%, 100%);
+--Lightgray: hsl(212, 45%, 89%);
+--Grayishblue: hsl(220, 15%, 55%);
+--Darkblue: hsl(218, 44%, 22%);
+} 
+
+html {
+    font-size: 62.5%;
+    box-sizing:border-box;
+}
+
+*, *:before, *:after{ /*Esto hace que no cambie el tamaño de las cajas*/
+    box-sizing: inherit;
+} 
+
+body {
+    font-family: 'Outfit', sans-serif;
+    font-size: 16px;
+    background-color: var(--Lightgray);
+}
+
+.contenedor {
+    width: 322px;
+    height: 498px;
+    border-radius: 2rem;
+    background-color: var(--White);
+    margin: 0 auto;
+    margin-top: 10.25rem;
+}
+
+.contenedor-img {
+   
+    
+    
+}
+
+.img {
+    background-image: url(../images/image-qr-code.png);
+    width: 289px;
+    height: 289px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    border-radius: 1rem;
+}
+
+.texto {
+    margin-top: 4rem;
+    align-items: center;
+    text-align: center;
+}
+
+.texto h1 {
+    font-size: 2.2rem;
+    color: var(--Darkblue);
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+}
+
+.texto p {
+    color: var(--Grayishblue);
+    margin: 2rem 2rem;
+}
